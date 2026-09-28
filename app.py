@@ -1,6 +1,7 @@
 from bottle import route, run, template, view, static_file
 #test
 @route('/')
+@route('/home')
 @view('home')
 def home():
     return {}
