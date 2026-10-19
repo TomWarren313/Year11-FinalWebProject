@@ -44,6 +44,8 @@ img {
     width: 358px;
     height: 468px;
     margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid #D97706
 }
 p {
     margin: 10px 0;
@@ -60,4 +62,12 @@ button {
 }
 button:hover {
     background-color: #B45309;
+}
+.image2 {
+    margin: 10px 0;
+    width: 358px;
+    height: 468px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid #D97706;
 }
