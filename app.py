@@ -1,9 +1,14 @@
 from bottle import route, run, template, view, static_file
-#test
+
+
 @route('/')
-@route('/home')
 @view('home')
 def home():
+    return {}
+
+@route('/truthvsmyth')
+@view('truthvsmyth')
+def truth_vs_myth():
     return {}
 
 @route('/static/<filename>')
