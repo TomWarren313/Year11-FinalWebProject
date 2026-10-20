@@ -1,21 +1,23 @@
 #Taken from my practice website
 body {
-    font-family: Courier, monospace;
+    font-family: arial, sans-serif;
     margin: 40px;
     background-color: Azure;
     color: black;
 }
 
 nav {
-    background-color: #F0EAE1;
-    border: 2px solid #D97706;
-    padding: 15px;
+  background-color: #F0EAE1; 
+  border: 2px solid #D97706; 
+  padding: 15px; 
+  margin-bottom: 40px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 15px;
+  text-decoration: none; 
+  margin-right: 15px; 
+  font-weight: bold;
+  color: #D97706;
 }
 
 nav a:hover {
@@ -26,26 +28,28 @@ h1 {
     color: black;
 }
 .Box {
-    display: flex;
-    margin : 20px 0;
-    padding: 10px;
-    background-color: #F0EAE1;
-    border: 3px solid #D97706;
-    border-radius: 10px;
+  flex: 1;
+  display: flex; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #F0EAE1; 
+  border: 3px solid #D97706; 
+  border-radius: 10px; 
     
 }
 .row {
-    display:flex;
-    gap: 20px;
+  display: flex; 
+  align-items: stretch;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 
-img {
-    margin: 10px 0;
-    width: 358px;
-    height: 468px;
-    margin-left: 20px;
-    border-radius: 10px;
-    border: 3px solid #D97706;
+img, .image2 {
+  width: 358px; 
+  height: 468px; 
+  object-fit: cover;
+  border-radius: 10px; 
+  border: 3px solid #D97706; 
 }
 p {
     margin: 10px 0;
@@ -62,12 +66,4 @@ button {
 }
 button:hover {
     background-color: #B45309;
-}
-.image2 {
-    margin: 10px 0;
-    width: 358px;
-    height: 468px;
-    margin-left: 20px;
-    border-radius: 10px;
-    border: 3px solid #D97706;
 }
