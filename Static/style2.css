@@ -11,19 +11,26 @@ nav {
   border: 2px solid #D97706; 
   padding: 15px; 
   margin-bottom: 40px;
+  color: black;
+  border-radius: 10px;
 }
 
 nav a {
-  text-decoration: none; 
-  margin-right: 15px; 
+  margin-left: 180px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid #D97706;
+  border-radius: 9px;
+  padding: 8px 35px;
+  background-color: #D97706;
   font-weight: bold;
-  color: #D97706;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration:underline;
 }
-
 h1 {
     color: black;
 }

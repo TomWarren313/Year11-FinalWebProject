@@ -11,6 +11,11 @@ def home():
 def truth_vs_myth():
     return {}
 
+@route('/issues')
+@view('issues')
+def issues():
+    return {}
+
 @route('/static/<filename>')
 def server_static(filename):
     return static_file(filename, root='./Static')

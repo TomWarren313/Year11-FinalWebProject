@@ -1,0 +1,141 @@
+#Taken from my practice website
+body {
+    font-family: arial, sans-serif;
+    margin: 40px;
+    background-color: Azure;
+    color: black;
+}
+
+nav {
+  background-color: #F0EAE1; 
+  border: 2px solid #D97706; 
+  padding: 15px; 
+  margin-bottom: 40px;
+  color: black;
+  border-radius: 10px;
+}
+
+nav a {
+  margin-left: 180px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid #D97706;
+  border-radius: 9px;
+  padding: 8px 35px;
+  background-color: #D97706;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+nav a:hover {
+  text-decoration:underline;
+}
+h1 {
+    color: black;
+}
+.Box {
+  flex: 1;
+  display: flex; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #F0EAE1; 
+  border: 3px solid #D97706; 
+  border-radius: 10px; 
+  margin-right: 20px;
+    
+}
+.row {
+  display: flex; 
+  align-items: stretch;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+image, .image2 {
+  width: 358px; 
+  height: 468px; 
+  object-fit: cover;
+  border-radius: 10px; 
+  border: 3px solid #D97706; 
+}
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 24px;
+}
+button {
+    background-color: #D97706;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 275px;
+}
+button:hover {
+    background-color: #B45309;
+}
+
+h1 {
+  text-align: center;
+  color: #D97706;
+  text-decoration: underline;
+}
+
+.stack-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.Box6 {
+  display: flex; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #F0EAE1; 
+  border: 3px solid #D97706; 
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+
+.Box3 {
+  flex: 1;
+  display: flex; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #F0EAE1; 
+  border: 3px solid #D97706; 
+  border-radius: 10px; 
+  margin-right: 20px;
+}
+
+.Box4 {
+  flex: 1;
+  display: flex; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #F0EAE1; 
+  border: 3px solid #D97706; 
+  border-radius: 10px; 
+  margin-right: 20px;
+}
+
+.Box5 {
+  flex: 1;
+  display: flex; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: #F0EAE1; 
+  border: 3px solid #D97706; 
+  border-radius: 10px; 
+  margin-right: 20px;
+}
+.image-3 {
+  width: 400px;
+  height: 520px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 3px solid #D97706;
+  margin: 0;
+  box-sizing: border-box;
+}

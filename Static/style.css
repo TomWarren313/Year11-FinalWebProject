@@ -11,6 +11,7 @@ nav {
   border: 2px solid #D97706; 
   padding: 15px; 
   margin-bottom: 40px;
+  border-radius: 10px;
 }
 
 nav a {
@@ -23,6 +24,7 @@ nav a {
   font-weight: bold;
   transition: all 0.2s ease-in-out;
   text-align: center;
+  margin-left: 180px;
 }
 
 nav a:hover {
