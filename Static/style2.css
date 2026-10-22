@@ -41,7 +41,7 @@ h1 {
   display: flex; 
   align-items: stretch;
   gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 img, .image2 {
@@ -66,4 +66,10 @@ button {
 }
 button:hover {
     background-color: #B45309;
+}
+
+h1 {
+  text-align: center;
+  color: #D97706;
+  text-decoration: underline;
 }
