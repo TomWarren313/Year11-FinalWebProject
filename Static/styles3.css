@@ -47,7 +47,7 @@ h1 {
 }
 .row {
   display: flex; 
-  align-items: stretch;
+  align-items: flex-start;
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -138,4 +138,19 @@ h1 {
   border: 3px solid #D97706;
   margin: 0;
   box-sizing: border-box;
+}
+
+.image-4 {
+    width: 358px;
+    height: 468px;
+    flex-shrink: 0;
+    border: 3px solid #D97706;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-4 img {
+    width: 358px;
+    height: 468px;
+    display: block;
 }
