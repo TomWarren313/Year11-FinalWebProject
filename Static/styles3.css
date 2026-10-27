@@ -1,4 +1,4 @@
-#Taken from my practice website
+#I have copied and pasted this from the previous css pages and from previous websites, I also have copied and pasted to all pages when I fix a bug
 body {
     font-family: arial, sans-serif;
     margin: 40px;
@@ -47,7 +47,7 @@ h1 {
 }
 .row {
   display: flex; 
-  align-items: flex-start;
+  align-items: stretch;
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -102,7 +102,7 @@ h1 {
   flex: 1;
   display: flex; 
   align-items: center; 
-  padding: 20px; 
+  padding: 10px; 
   background-color: #F0EAE1; 
   border: 3px solid #D97706; 
   border-radius: 10px; 
@@ -139,18 +139,17 @@ h1 {
   margin: 0;
   box-sizing: border-box;
 }
-
 .image-4 {
-    width: 358px;
-    height: 468px;
-    flex-shrink: 0;
-    border: 3px solid #D97706;
-    border-radius: 10px;
-    overflow: hidden;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 3px solid #D97706;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.image-4 img {
-    width: 358px;
-    height: 468px;
-    display: block;
+.image-5 {
+  object-fit: contain;
+  border-radius: 10px;
+  border: 3px solid #D97706;
+  margin: 0;
+  box-sizing: border-box;
 }
