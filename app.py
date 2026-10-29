@@ -16,6 +16,11 @@ def truth_vs_myth():
 def issues():
     return {}
 
+@route('/impacts')
+@view('impacts')
+def impacts():
+    return {}
+
 @route('/static/<filename>')
 def server_static(filename):
     return static_file(filename, root='./Static')
