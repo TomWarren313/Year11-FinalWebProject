@@ -3,7 +3,13 @@ body {
     font-family: arial, sans-serif;
     margin: 40px;
     background-color: Azure;
-    color: black;
+}
+
+
+h1 {
+  text-align: center;
+  color: #D97706;
+  text-decoration: underline;
 }
 
 nav {
@@ -29,10 +35,6 @@ nav a {
 
 nav a:hover {
   text-decoration:underline;
-}
-
-h1 {
-    color: black;
 }
 .Box {
   flex: 1;
